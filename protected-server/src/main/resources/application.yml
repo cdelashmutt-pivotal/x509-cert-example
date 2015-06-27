@@ -1,0 +1,14 @@
+keystore:
+  file: keystore.jks
+  alias: localhost
+  type: jks
+  pass: password
+truststore:
+  file: truststore.jks
+  type: jks
+  pass: password
+tls:
+  port: 8888
+logging:
+  level:
+    org.springframework.security: DEBUG
